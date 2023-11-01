@@ -1,6 +1,5 @@
 .header-bg {
-  background-color: #000000;
-  color: aliceblue;
+  background-color: var(--cor-12);
 }
 .header {
   display: flex;
@@ -23,17 +22,13 @@
 .header-menu a {
   display: inline-block; /* Pq quando o elemento cair não vai ficar com o padding sertinho */
   padding: 16px 0px; /* area de contato */
-  color: #ffffff;
-  font-size: 18px;
   position: relative;  /* Realinhando ao centro */
-  font-family: "Poppins";
-  font-weight: 400;
 }
 .header-menu a:after {
   content: "";
   width: 0%;
   height: 2px;
-  background-color: #ffffff;
+  background-color: var(--cor-0);
   display: block; 
   margin-top: 4px;
   transition: 0.3s;
@@ -48,12 +43,12 @@
     gap: 20px;
   }
   .header-menu a{
-    background: #111111;
+    background: var(--cor-11);
     padding: 12px 16px;
     border-radius: 4px;  
   }
   .header-menu a:hover{ 
-    background-color: #2e2e2e;
+    background-color: var(--cor-10);
   }
   .header-menu a:after { 
     display: none;
@@ -64,7 +59,7 @@
     gap: 12px;
   }
   .header-menu a{
-    background: #111111;
+    background: var(--cor-11);
     padding: 8px 12px;
     border-radius: 4px; 
     font-size: 14px; 
