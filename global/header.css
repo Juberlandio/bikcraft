@@ -8,11 +8,12 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  max-width: 1200px;
-  box-sizing: border-box; /*para somar o pedding com a largura maxima max-width*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* max-width: 1200px; virou componente
+  box-sizing: border-box;  para somar o pedding com a largura maxima max-width
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
 .header-menu {
   display: flex;

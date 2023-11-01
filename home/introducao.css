@@ -6,12 +6,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr; /* distribua o espaço que sobra fr*/
   gap:0px 40px; /*gap entre os elementos 0px - gap entre as colunas fr 40px*/
-  max-width: 1200px;
-  box-sizing: border-box;/*somar os padding com o max width - tudo 1200px*/
+
+ /* max-width: 1200px; virou componente
+  box-sizing: border-box; somar os padding com o max width - tudo 1200px
   padding-left: 20px;
   padding-right: 20px;
-  margin-right: auto; /*alinhando ao centro 1200*/
-  margin-left: auto;/*alinhando ao centro 1200*/
+  margin-right: auto; alinhando ao centro 1200
+  margin-left: auto; alinhando ao centro 1200*/
 }
 .introducao-conteudo {
   align-self: end;
