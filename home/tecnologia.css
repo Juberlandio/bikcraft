@@ -1,0 +1,67 @@
+.tecnologia-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0)
+}
+.tecnologia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.tecnologia-imagem img{
+  width: 100%; /* obrigatorio 100% do maximo do container */
+  height: 100%;
+  object-fit: cover; /* impedir que tire a razão da foto */
+  object-position: left; /* alinhar a esquerda cortar a direita */
+}
+.tecnologia-conteudo {
+  padding-top: 100px;
+  padding-top: 100px;
+}
+.tecnologia-conteudo > span { /* Span display inline por padrão */
+    display: block;
+    margin-bottom: 32px;
+}
+.tecnologia-conteudo h2 { /* Span display block por padrão */
+  margin-bottom: 32px;
+}
+.tecnologia-conteudo > p { /* Falar diretamente com p sem afetar os outros */
+  margin-bottom: 32px;
+}
+.tecnologia a { 
+  margin-bottom: 80px;
+}
+.tecnologia-vantagens {
+  display: flex;
+  gap:40px
+}
+.tecnologia-vantagens h3{
+  margin-bottom: 8px;
+  width: max-content; /* Nunca vai quebrar no responsivo */
+}
+.tecnologia-vantagens img{
+  width: 24px;
+  margin-bottom: 8px;
+}
+@media (max-width: 400px) {
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .tecnologia-conteudo {
+    padding-top: 60px;
+    padding-top: 60px;
+  }
+  .tecnologia-imagem {
+    display: none;
+  }
+  .tecnologia a {
+    margin-bottom: 60px;
+  }
+}
+  @media (max-width: 600px) {
+   .tecnologia-vantagens {
+    flex-direction: column;  /* direção do item flexivel */
+   }
+}
