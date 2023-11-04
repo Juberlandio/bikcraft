@@ -1,0 +1,3 @@
+.bicicletas-bg:nth-child(3) { /* Ou poderia tirar as classes BG, e deixar apenas a que fosse pintar */
+  background: var(--cor-11);
+}

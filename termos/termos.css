@@ -6,10 +6,10 @@
   font-weight: 600;
   margin-top: 20px;
 }
-.termos p + h2{ /* h2 que vemha apos um p */
+.termos p + h2{ /* h2 que venha apos um p */
   margin-top: 40px;
 }
 .termos p{
-  max-width: 75ch;
+  max-width: 75ch; /* maximo de caracteres */
   margin-bottom: 24px;
 }
