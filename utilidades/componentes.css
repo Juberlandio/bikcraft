@@ -39,7 +39,7 @@ color: var(--cor-2);
   display: flex;
   align-items: center;
 }
-.botao.seta::after {    /* Quando tiver essas duas classes juntas */
+.botao.seta::after{    /* Quando tiver essas duas classes juntas */
  content: "";
  display: inline-block;
  width: 18px;
