@@ -34,6 +34,26 @@ color: var(--cor-2);
   background: var(--cor-9);
 }
 
+/*Inicio botão Pagine bicicletas.html */
+.botao.seta {   /* Para centralizar a seta */
+  display: flex;
+  align-items: center;
+}
+.botao.seta::after {    /* Quando tiver essas duas classes juntas */
+ content: "";
+ display: inline-block;
+ width: 18px;
+ height: 10px;
+ margin-left: 12px;
+ background: url("./../img/icones/seta.svg");
+ transition: transform 0.2s;
+}
+.botao.seta:hover::after {
+  transform: translateX(4px)
+}
+/*Fim botão Pagine bicicletas.html */
+
+
 @media (max-width: 600px) {
   .botao { 
   padding: 12px 16px;
