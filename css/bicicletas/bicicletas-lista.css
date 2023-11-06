@@ -40,7 +40,7 @@
   background-color: var(--cor-p1);
   transition: width 0,2s;/**/
 }
-.bicicletas-lista a:hover h3::before {
+.bicicletas-lista a:hover h3::before {  
   width: 24px;
 }
 .bicicletas-lista li span {

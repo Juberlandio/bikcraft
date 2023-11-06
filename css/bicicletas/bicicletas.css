@@ -1,5 +1,5 @@
 .bicicletas-bg:nth-child(3) { /* Ou poderia tirar as classes BG, e deixar apenas a que fosse pintar */
-  background: linear-gradient( to right, var(--cor-0) 30%, var(--cor-11) 0%);
+  background: linear-gradient( to right, var(--cor-0) 30%, var(--cor-11) 0%);/* Gradiente para fundo bicicleta.html */
 }
 .bicicletas {
   display: grid;
@@ -42,6 +42,7 @@
  .bicicletas-conteudo {
   display: grid;
   grid-template-columns: 1fr auto;
+  align-content: start;
  }
  .bicicletas h2,
  .bicicletas p {
@@ -90,7 +91,7 @@
 }
 @media (max-width: 600px){
   .bicicletas-conteudo {
-    grid-template-columns:1fr;
+    grid-template-columns: 1fr;
   }
   .bicicletas ul {
     font-size: 1rem;

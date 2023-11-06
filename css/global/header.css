@@ -1,5 +1,6 @@
 .header-bg {
   background-color: var(--cor-12);
+  color: aliceblue;
 }
 .header {
   display: flex;
@@ -7,11 +8,12 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  max-width: 1200px;
-  box-sizing: border-box; /*para somar o pedding com a largura maxima max-width*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* max-width: 1200px; virou componente
+  box-sizing: border-box;  para somar o pedding com a largura maxima max-width
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
 .header-menu {
   display: flex;
@@ -22,7 +24,10 @@
 .header-menu a {
   display: inline-block; /* Pq quando o elemento cair não vai ficar com o padding sertinho */
   padding: 16px 0px; /* area de contato */
+  font-size: 18px;
   position: relative;  /* Realinhando ao centro */
+  font-family: "Poppins";
+  font-weight: 400;
 }
 .header-menu a:after {
   content: "";
@@ -59,7 +64,7 @@
     gap: 12px;
   }
   .header-menu a{
-    background: var(--cor-11);
+    background: #111111;
     padding: 8px 12px;
     border-radius: 4px; 
     font-size: 14px; 

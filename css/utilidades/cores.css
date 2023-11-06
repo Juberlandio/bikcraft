@@ -1,5 +1,5 @@
 :root {
-  --cor-0: #ffffff;
+  --cor-0: #ffffff; /* Direto no css - background-color: var(--cor-p1);*/
   --cor-1: #f7f7f7;
   --cor-2: #ededed;
   --cor-3: #dedede;
@@ -18,7 +18,7 @@
   --cor-p4: #664400;
   --cor-p5: #332200;
 }
-.cor-0 {
+.cor-0 { /* Direto no html - cor-0*/
   color: var(--cor-0);
 }
 .cor-1 {

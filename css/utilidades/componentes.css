@@ -35,11 +35,11 @@ color: var(--cor-2);
 }
 
 /*Inicio botão Pagine bicicletas.html */
-.botao.seta {   /* Para centralizar a seta */
+.botao.seta {   /* Para centralizar a seta */ /* Quando tiver essas duas classes juntas */
   display: flex;
   align-items: center;
 }
-.botao.seta::after{    /* Quando tiver essas duas classes juntas */
+.botao.seta::after{    
  content: "";
  display: inline-block;
  width: 18px;
@@ -60,6 +60,7 @@ color: var(--cor-2);
   font-size: 1rem;
   }
 }
+ /* inicio - botão aula tecnologia 2 */
 .link {
   display: inline-block;
   color: var(--cor-p1);
@@ -76,6 +77,7 @@ color: var(--cor-2);
 .link:hover {
   color: var(--cor-0)
 }
+/* fim - botão aula tecnologia 2 */
 
 
 /* Titulos internos termos.html*/
