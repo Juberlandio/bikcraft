@@ -13,9 +13,9 @@
   object-fit: cover; /* impedir que tire a razão da foto */
   object-position: left; /* alinhar a esquerda cortar a direita */
 }
-.tecnologia-conteudo {
+.tecnologia-conteudo { /* Padding para envolver o conteudo */
   padding-top: 160px;
-  padding-top: 160px;
+  padding-bottom: 160px;
 }
 .tecnologia-conteudo > span { /* Span display inline por padrão */
     display: block;

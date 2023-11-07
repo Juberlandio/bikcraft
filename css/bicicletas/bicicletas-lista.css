@@ -5,6 +5,9 @@
 .bicicletas-lista h2 {
   margin-bottom: 40px;
 }
+#bicicleta .bicicletas-lista ul { /* Tirqando padding extra da pagina interna com id bicicleta */
+  padding: 0px 0px 20px 0px; 
+}
 .bicicletas-lista ul {
   display: flex;
   gap: 40px;
@@ -15,9 +18,6 @@
   overflow-x: auto;/* scroll 2 Possibilidade - Quebrando */
   -webkit-overflow-scrolling: touch;/* scroll 2 Possibilidade - Quebrando */
   /* flex-wrap: wrap; 1 Possibilidade - Quebrando */
-}
-#bicicleta .bicicletas-lista ul { /* Tirqando padding extra da pagina interna com id bicicleta */
-  padding: 0px 0px 20px 0px; 
 }
 .bicicletas-lista li {
   flex: 1;  /* 1 Possibilidade - Quebrando */ /* scroll 2 Possibilidade - Quebrando */
