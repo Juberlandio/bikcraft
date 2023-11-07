@@ -21,6 +21,8 @@
   font-weight: 600; */
   font: 600 1.125rem/1.35 "Poppins", sans-serif; /*font: font-weight, font-size, line-height, font-family */
   max-width: max-content; /* grid-column: 1 / -1; No maximo o conteudo dele - não se expandir */
+  border: none;
+  cursor: pointer;
 }
 .botao:hover { /* botão */
   background: linear-gradient(#ffb60d, #e59317);
