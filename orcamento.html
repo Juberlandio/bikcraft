@@ -37,20 +37,36 @@
     <form class="orcamento container" action="./">
       <div class="orcamento-produto">
           <h2 class="font-1-xs cor-5"> Bikcraft ou Seguro</h2>
-
+           <!-- Label e input  -->
           <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
           <label for="bikcraft">Bikcraft</label>
 
           <input type="radio" name="tipo" value="seguro" id="seguro">
           <label for="seguro">Seguro</label>
 
+            <!-- Dois conteudos que vão aparecer-->
           <div class="orcamento-conteudo" id="orcamento-bikcraft">
-            <h2 class="font-1-m cor-0">Escolha a sua (Bikcraft)</h2>
-            <p class="font-1-m cor-0"> Esse é um conteudo texte</p>
+            <h2 class="font-1-xs cor-5">Escolha a sua</h2>
+
+            <input type="radio" name="produto" value="ninbus" id="ninbus">
+            <label for="ninbus">Ninbus Starc <span>R$ 4999</span></label>
+
+            <input type="radio" name="produto" value="magic" id="magic">
+            <label for="magic">Magic Night <span>R$ 2499</span></label>
+
+            <input type="radio" name="produto" value="nebula" id="nebula">
+            <label for="nebula">Nebula Cosmic <span>R$ 3999</span></label>
           </div>
 
           <div class="orcamento-conteudo" id="orcamento-seguro">
-            <h2 class="font-1-m cor-0">Escolha o Plano</h2>
+            <h2 class="font-1-xs cor-5">Escolha o Plano</h2>
+
+            <input type="radio" name="produto" value="prata" id="prata">
+            <label for="prata">Prata <span>R$ 199</span></label>
+
+            <input type="radio" name="produto" value="ouro" id="ouro">
+            <label for="ouro">Ouro <span>R$ 299</span></label>
+
           </div>
       </div>
 
@@ -102,6 +118,7 @@
     </div>
     </form>
   </main>
+  
 
   <footer class="footer-bg">
     <div class="footer container">
