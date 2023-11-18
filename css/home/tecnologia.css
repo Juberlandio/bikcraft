@@ -15,7 +15,7 @@
 }
 .tecnologia-conteudo { /* Padding para envolver o conteudo */
   padding-top: 160px;
-  padding-bottom: 160px;
+  padding-bottom: 60px;
 }
 .tecnologia-conteudo > span { /* Span display inline por padrão */
     display: block;
