@@ -15,7 +15,7 @@
 }
 .tecnologia-conteudo { /* Padding para envolver o conteudo */
   padding-top: 160px;
-  padding-bottom: 60px;
+  padding-bottom: 160px;
 }
 .tecnologia-conteudo > span { /* Span display inline por padrão */
     display: block;
@@ -51,7 +51,7 @@
   }
   .tecnologia-conteudo {
     padding-top: 60px;
-    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .tecnologia-imagem {
     display: none;
