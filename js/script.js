@@ -12,7 +12,6 @@ function ativarLink(link) {
 links.forEach(ativarLink);
 
 // Ativar Items do Orçamento
-
 const parametros = new URLSearchParams(location.search);
 
 function ativarProduto(parametro) {
@@ -60,3 +59,8 @@ function eventosGaleria(img) {
 }
 
 galeria.forEach(eventosGaleria);
+
+// Animação
+if(window.SimpleAnime) {
+  new SimpleAnime();
+}
